@@ -24,20 +24,18 @@ class MainActivity : AppCompatActivity() {
             fontSize=(fontSize+5)%30
         }
         btFontColor.setOnClickListener {
-            when(fontColor%4){
+            when(fontColor%3){
                 0-> tvTxt.setTextColor( Color.RED)
                 1-> tvTxt.setTextColor( Color.GREEN)
                 2-> tvTxt.setTextColor( Color.BLUE)
-                3-> tvTxt.setTextColor( Color.BLACK)
             }
             fontColor++
         }
         btBgColor.setOnClickListener {
-            when(backGroundColor%4){
+            when(backGroundColor%3){
                 0-> linearLayout.setBackgroundColor( Color.RED)
                 1-> linearLayout.setBackgroundColor( Color.GREEN)
                 2-> linearLayout.setBackgroundColor( Color.BLUE)
-                3-> linearLayout.setBackgroundColor( Color.BLACK)
             }
             backGroundColor++
         }

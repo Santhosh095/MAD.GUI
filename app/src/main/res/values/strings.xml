@@ -4,4 +4,5 @@
     <string name="change_font_size">Change Font Size</string>
     <string name="change_font_color">Change Font Color</string>
     <string name="change_background_color">Change Background Color</string>
+    <string name="textview">By - Santhosh S 200701221</string>
 </resources>
