@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:id="@+id/linearLayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/rec"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btFontSize"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FF17173B"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/change_font_size"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btFontColor"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FF17173B"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/change_font_color"
+        tools:ignore="TextSizeCheck" />
+
+    <Button
+        android:id="@+id/btBgColor"
+        android:layout_width="220dp"
+        android:layout_height="70dp"
+        android:backgroundTint="#FF17173B"
+        android:fontFamily="@font/poppins_bold"
+        android:text="@string/change_background_color"
+        tools:ignore="TextSizeCheck" />
+
+</LinearLayout>

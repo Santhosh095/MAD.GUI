@@ -5,4 +5,7 @@
     <string name="change_font_color">Change Font Color</string>
     <string name="change_background_color">Change Background Color</string>
     <string name="textview">By - Santhosh S 200701221</string>
+    <string name="Welcome_text">Android Studio\nGUI Alteration App</string>
+    <string name="credits2">Designed By Santhosh S 200701221 REC\nMobile Application Development Laboratory</string>
+    <string name="get_started">Get Started</string>
 </resources>
